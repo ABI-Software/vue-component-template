@@ -19,7 +19,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       {
         text: 'API Reference',
-        link: '/components/HelloWorld'
+        link: '/components/VueComponentTemplate'
       }
     ],
 
@@ -30,7 +30,7 @@ export default defineConfig({
       },
       {
         text: 'API Reference',
-        link: '/components/HelloWorld'
+        link: '/components/VueComponentTemplate'
       },
       {
         text: 'Version',

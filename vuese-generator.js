@@ -7,7 +7,7 @@
  * Update the components array.
  */
 const COMPONENTS = [
-  'HelloWorld'
+  'VueComponentTemplate'
 ]
 
 import fs from 'fs'

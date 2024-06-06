@@ -5,7 +5,7 @@
 <div class="demo-container">
   <div class="demo-container-inner">
     <ClientOnly>
-      <HelloWorld
+      <VueComponentTemplate
         title="Vue Component Template"
       />
     </ClientOnly>
@@ -16,8 +16,8 @@
 import { defineClientComponent } from "vitepress";
 import "./demo-styles.css";
 
-const HelloWorld = defineClientComponent(() => {
-  return import("../src/components/HelloWorld.vue");
+const VueComponentTemplate = defineClientComponent(() => {
+  return import("../src/components/VueComponentTemplate.vue");
 })
 </script>
 
@@ -26,16 +26,16 @@ const HelloWorld = defineClientComponent(() => {
 
 ```js-vue
   <div class="your-outer-container">
-    <HelloWorld
+    <VueComponentTemplate
       title="Vue Component Template"
     />
   </div>
 
   <script>
-    import HelloWorld from '@abi-software/hello-world'
+    import VueComponentTemplate from '@abi-software/vue-component-template'
 
     export default {
-      components: { HelloWorld },
+      components: { VueComponentTemplate },
     }
   </script>
 ```

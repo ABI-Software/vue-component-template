@@ -1,4 +1,4 @@
-<script setup name="HelloWorld">
+<script setup name="VueComponentTemplate">
 const props = defineProps({
   /**
    * The title of the component.

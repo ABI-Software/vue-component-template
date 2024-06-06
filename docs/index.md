@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: API Reference
-      link: /components/HelloWorld
+      link: /components/VueComponentTemplate
     - theme: alt
       text: Demo
       link: /demo

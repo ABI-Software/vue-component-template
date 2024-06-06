@@ -7,6 +7,8 @@
     "serve": "vite --host",
     "build-bundle": "vite build",
     "preview": "vite preview",
+    "changelog": "auto-changelog -p --output CHANGELOG.md --template keepachangelog",
+    "version": "npm run build-bundle; npm run changelog; git add CHANGELOG.md",
     "test:open": "cypress open",
     "test": "cypress run --component",
     "vuese-gen": "node vuese-generator.js",
@@ -15,6 +17,23 @@
     "docs:watch": "concurrently \"npm run vuese-watch\" \"npm run docs:dev\"",
     "docs:build": "npm run vuese-gen; vitepress build docs",
     "docs:preview": "vitepress preview docs"
+  },
+  "files": [
+    "assets/*",
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
+  "main": "./dist/vue-component-template.umd.cjs",
+  "module": "./dist/vue-component-template.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-component-template.js",
+      "require": "./dist/vue-component-template.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
   },
   "dependencies": {
     "vue": "^3.4.21"

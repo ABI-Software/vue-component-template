@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import VueComponentTemplate from './components/VueComponentTemplate.vue'
 </script>
 
 <template>
-  <HelloWorld title="Vue Component Template" />
+  <VueComponentTemplate title="Vue Component Template" />
 </template>
 
 <style scoped>

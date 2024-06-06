@@ -1,6 +1,31 @@
 # Vue Component Template
 
-Base template to create new Vue components.
+Base template to create new Vue component.
+
+This template includes:
+
+- `VueComponentTemplate` component in `src/components`
+- API documentation in `docs` using `vitepress`
+- Cypress component testing for `VueComponentTemplate` component in `cypress/component`
+
+
+## Usage
+
+1. Create a new repository using this template (choose repository template when creating a new repo on GitHub and select this template).
+2. Update component name, `VueComponentTemplate` to `YourComponentName`. (See next section for details).
+3. Configure GitHub page for API documentation (Settings > GitHub Pages > Build and deployment > Chnage "Deploy from a branch" to "GitHub Actions").
+
+### Updating Component Name
+
+1. `package.json` > `name`
+2. `package-lock.json` > `name`
+3. `index.html` > `<title>`
+4. `src/components/VueComponentTemplate.vue` to `YourComponent.vue` and update the component name and content inside the file.
+5. Update the import file name in `App.vue`.
+6. Update `COMPONENTS` array variable name in `vuese-generator.js`.
+7. Update TBC:
+100. `public/favicon.svg` (optional, if you have favicon)
+
 
 ## API Documentation
 
