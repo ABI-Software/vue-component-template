@@ -18,7 +18,7 @@ import "./demo-styles.css";
 
 const VueComponentTemplate = defineClientComponent(() => {
   return import("../src/components/VueComponentTemplate.vue");
-})
+});
 </script>
 
 
