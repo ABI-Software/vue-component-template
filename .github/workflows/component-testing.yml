@@ -4,6 +4,11 @@ on:
   # Runs on pushes targeting the `docs` branch and `main` branch.
   push:
     branches: ["main"]
+    paths-ignore:
+      - '.vscode/**'
+      - 'docs/**'
+      - 'README.md'
+      - 'vuese-generator.js'
   pull_request:
     branches: ["main"]
 
