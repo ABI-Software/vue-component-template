@@ -1,5 +1,5 @@
 <script setup>
-import VueComponentTemplate from './components/VueComponentTemplate.vue'
+import VueComponentTemplate from './components/VueComponentTemplate.vue';
 </script>
 
 <template>

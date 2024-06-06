@@ -7,6 +7,7 @@
     "serve": "vite --host",
     "build-bundle": "vite build",
     "preview": "vite preview",
+    "lint": "eslint src",
     "changelog": "auto-changelog -p --output CHANGELOG.md --template keepachangelog",
     "version": "npm run build-bundle; npm run changelog; git add CHANGELOG.md",
     "test:open": "cypress open",
@@ -39,12 +40,15 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@stylistic/eslint-plugin-js": "^2.1.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vuese/markdown-render": "^2.11.3",
     "@vuese/parser": "^2.10.3",
     "chokidar": "^3.6.0",
     "concurrently": "^8.2.2",
     "cypress": "^13.11.0",
+    "eslint": "^9.4.0",
+    "eslint-plugin-vue": "^9.26.0",
     "sass": "^1.77.4",
     "unplugin-vue-components": "^0.27.0",
     "vite": "^5.2.0",

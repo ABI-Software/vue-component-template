@@ -1,5 +1,5 @@
 <script setup name="VueComponentTemplate">
-const props = defineProps({
+defineProps({
   /**
    * The title of the component.
    */
@@ -8,7 +8,7 @@ const props = defineProps({
     required: true,
     default: '',
   },
-})
+});
 </script>
 
 <template>
