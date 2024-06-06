@@ -7,6 +7,7 @@ This template includes:
 - `VueComponentTemplate` component in `src/components`
 - API documentation in `docs` using `vitepress`
 - Cypress component testing for `VueComponentTemplate` component in `cypress/component`
+- GitHub Actions for API documentation and Cypress component testing
 - ESLint for `.js` and `.vue` files in `src`
 
 
