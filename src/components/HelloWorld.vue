@@ -15,6 +15,6 @@ const props = defineProps({
   <h1>{{ title }}</h1>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* Component Styles */
 </style>
