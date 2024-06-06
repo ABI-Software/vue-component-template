@@ -13,7 +13,7 @@ This template includes:
 ## Usage
 
 1. Create a new repository using this template (choose repository template when creating a new repo on GitHub and select this template).
-2. Update component name, `VueComponentTemplate` to `YourComponentName`. (See next section for details).
+2. Update component name, `VueComponentTemplate` to `YourComponentName`. (See [Updating Component Names](#Updating-Component-Names) for details).
 3. Configure GitHub page for API documentation (Settings > GitHub Pages > Build and deployment > Chnage "Deploy from a branch" to "GitHub Actions").
 
 ### Updating Component Names
