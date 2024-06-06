@@ -7,6 +7,7 @@ This template includes:
 - `VueComponentTemplate` component in `src/components`
 - API documentation in `docs` using `vitepress`
 - Cypress component testing for `VueComponentTemplate` component in `cypress/component`
+- ESLint
 
 
 ## Usage
@@ -15,16 +16,13 @@ This template includes:
 2. Update component name, `VueComponentTemplate` to `YourComponentName`. (See next section for details).
 3. Configure GitHub page for API documentation (Settings > GitHub Pages > Build and deployment > Chnage "Deploy from a branch" to "GitHub Actions").
 
-### Updating Component Name
+### Updating Component Names
 
-1. `package.json` > `name`
-2. `package-lock.json` > `name`
-3. `index.html` > `<title>`
-4. `src/components/VueComponentTemplate.vue` to `YourComponent.vue` and update the component name and content inside the file.
-5. Update the import file name in `App.vue`.
-6. Update `COMPONENTS` array variable name in `vuese-generator.js`.
-7. Update TBC:
-100. `public/favicon.svg` (optional, if you have favicon)
+If you are using VSCode, `[Ctrl + Shift + F]` or `[Cmd + Shift + F]` from root directory and search for "**vue-component-template**", and replace with your new component name.
+
+Do the same thing for "**VueComponentTemplate**".
+
+Rename `src/components/VueComponentTemplate.vue` and `cypress/component/VueComponentTemplate.cy.js` to your new component name.
 
 
 ## API Documentation
