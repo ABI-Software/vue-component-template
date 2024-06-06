@@ -7,14 +7,14 @@ This template includes:
 - `VueComponentTemplate` component in `src/components`
 - API documentation in `docs` using `vitepress`
 - Cypress component testing for `VueComponentTemplate` component in `cypress/component`
-- ESLint
+- ESLint for `.js` and `.vue` files in `src`
 
 
 ## Usage
 
-1. Create a new repository using this template (choose repository template when creating a new repo on GitHub and select this template).
-2. Update component name, `VueComponentTemplate` to `YourComponentName`. (See [Updating Component Names](#Updating-Component-Names) for details).
-3. Configure GitHub page for API documentation (Settings > GitHub Pages > Build and deployment > Chnage "Deploy from a branch" to "GitHub Actions").
+1. Create a new repository using this template *(choose repository template when creating a new repo on GitHub and select this template)*.
+2. Update component name `VueComponentTemplate` to `YourComponentName`. (See [Updating Component Names](#Updating-Component-Names) for details).
+3. Configure GitHub page for API documentation *(Settings > GitHub Pages > Build and deployment > Change "Deploy from a branch" to "GitHub Actions")*.
 4. Run `npm install`.
 5. Run `npm run serve` for development.
 6. Run `npm run build-bundle` for production build to create bundle.
@@ -22,11 +22,11 @@ This template includes:
 
 ### Updating Component Names
 
-If you are using VSCode, `[Ctrl + Shift + F]` or `[Cmd + Shift + F]` from root directory and search for "**vue-component-template**", and replace with your new component name.
+1. If you are using VSCode, `[Ctrl + Shift + F]` or `[Cmd + Shift + F]` from the root directory, search for "**vue-component-template**" and replace it with your new component name.
 
-Do the same thing for "**VueComponentTemplate**".
+2. Do the same way for "**VueComponentTemplate**".
 
-Rename `src/components/VueComponentTemplate.vue` and `cypress/component/VueComponentTemplate.cy.js` to your new component name.
+3. Rename `src/components/VueComponentTemplate.vue` and `cypress/component/VueComponentTemplate.cy.js` to your new component name.
 
 
 ## API Documentation
