@@ -43,7 +43,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/akhuoa/vue-component-template' }
+      { icon: 'github', link: 'https://github.com/ABI-Software/vue-component-template' }
     ]
   },
   markdown: { attrs: { disable: true } },
